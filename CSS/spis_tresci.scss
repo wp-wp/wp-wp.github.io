@@ -1,0 +1,35 @@
+@import "colors.scss";
+@import "button.scss";
+
+.text{
+    width: 68%;
+    margin: 10px auto 0 auto;
+    font-family: 'Roboto', sans-serif;
+    color: $font-menu-numbers;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 10px;
+    h2 {
+        font-size: 30px;
+        padding: 20px 0 10px;
+        border-bottom: 1px solid $font-menu-numbers;
+        margin-bottom: 15px;
+      }
+    ul {
+        list-style: none;
+    }
+    span{
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+.text .main-list li{
+    font-family: 'Roboto', sans-serif;
+    color: $font-menu-numbers;
+    font-size: 18px;
+    line-height: 28px;
+    
+}
+
+

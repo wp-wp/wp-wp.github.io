@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #F2E9E4;
+}
+
+.menu {
+  position: fixed;
+  display: block;
+  width: 130px;
+  height: 100%;
+  background: #22223B;
+  left: -130px;
+  top: 0;
+  text-align: center;
+  padding-top: 60px;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.menu:after {
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 60px;
+  background: #22223B;
+  top: 0;
+  right: -60px;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.menu:hover {
+  left: 0;
+}
+
+.menu:hover:after {
+  right: 0px;
+}
+
+.menu:hover .menu_icon {
+  left: 50%;
+}
+
+.menu li {
+  list-style-type: none;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.menu li a:hover {
+  background: white;
+  color: #22223B;
+}
+
+.menu_icon {
+  position: absolute;
+  top: 36px;
+  left: 158px;
+  margin: -10px;
+  width: 20px;
+  height: 4px;
+  background: #fff;
+  z-index: 4;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.menu_icon:after {
+  position: absolute;
+  bottom: 7px;
+  left: 0px;
+  content: '';
+  width: 20px;
+  height: 4px;
+  background: #fff;
+}
+
+.menu_icon:before {
+  position: absolute;
+  bottom: -7px;
+  left: 0px;
+  content: '';
+  width: 20px;
+  height: 4px;
+  background: #fff;
+}
+/*# sourceMappingURL=menu.css.map */

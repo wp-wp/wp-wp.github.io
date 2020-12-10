@@ -1,0 +1,260 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #F2E9E4;
+}
+
+.menu {
+  position: fixed;
+  display: block;
+  width: 130px;
+  height: 100%;
+  background: #22223B;
+  left: -130px;
+  top: 0;
+  text-align: center;
+  padding-top: 60px;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.menu:after {
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 60px;
+  background: #22223B;
+  top: 0;
+  right: -60px;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.menu:hover {
+  left: 0;
+}
+
+.menu:hover:after {
+  right: 0px;
+}
+
+.menu:hover .menu_icon {
+  left: 50%;
+}
+
+.menu li {
+  list-style-type: none;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.menu li a:hover {
+  background: white;
+  color: #22223B;
+}
+
+.menu_icon {
+  position: absolute;
+  top: 36px;
+  left: 158px;
+  margin: -10px;
+  width: 20px;
+  height: 4px;
+  background: #fff;
+  z-index: 4;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.menu_icon:after {
+  position: absolute;
+  bottom: 7px;
+  left: 0px;
+  content: '';
+  width: 20px;
+  height: 4px;
+  background: #fff;
+}
+
+.menu_icon:before {
+  position: absolute;
+  bottom: -7px;
+  left: 0px;
+  content: '';
+  width: 20px;
+  height: 4px;
+  background: #fff;
+}
+
+.btn {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: #22223B;
+  border: 1.5px solid white;
+  border-radius: 0.6em;
+  color: white;
+  cursor: pointer;
+  display: inline flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  margin-left: 200px;
+  margin-right: 100px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  -webkit-transition: color 300ms ease-in-out, -webkit-box-shadow 300ms ease-in-out;
+  transition: color 300ms ease-in-out, -webkit-box-shadow 300ms ease-in-out;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out, -webkit-box-shadow 300ms ease-in-out;
+}
+
+.btn:hover {
+  color: #22223B;
+  outline: 0;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn:hover {
+  -webkit-box-shadow: 0 0 40px 40px white inset;
+          box-shadow: 0 0 40px 40px white inset;
+}
+
+.text {
+  width: 68%;
+  margin: 10px auto 0 auto;
+  font-family: 'Roboto', sans-serif;
+  color: #22223B;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 10px;
+}
+
+.text h2 {
+  font-size: 30px;
+  padding: 20px 0 10px;
+  border-bottom: 1px solid #22223B;
+  margin-bottom: 15px;
+}
+
+.text ul {
+  list-style: none;
+}
+
+.text span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.text .main-list li {
+  font-family: 'Roboto', sans-serif;
+  color: #22223B;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.theory {
+  font-family: 'Roboto', sans-serif;
+}
+
+.theory h2 {
+  width: 68%;
+  margin: 10px auto 0 auto;
+  font-family: 'Roboto', sans-serif;
+  color: #22223B;
+  font-size: 30px;
+  line-height: 28px;
+  margin-top: 10px;
+  padding: 20px 0 10px;
+  border-bottom: 1px solid #22223B;
+  margin-bottom: 15px;
+}
+
+.theory .download {
+  color: #22223B;
+  width: 68%;
+  margin: 10px auto 0 auto;
+  border-bottom: 1px solid #22223B;
+  margin-bottom: 15px;
+}
+
+.theory .download ul {
+  list-style: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.theory .download li {
+  font-size: 15px;
+  text-transform: none;
+  letter-spacing: normal;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.theory .download a {
+  text-decoration: none;
+  color: #22223B;
+}
+
+.theory .download a:hover {
+  color: #22223B;
+  border-bottom: 1px dashed #22223B;
+}
+
+.theory .download i {
+  margin-right: 10px;
+}
+
+.theory .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-top: 2.4rem;
+  padding-bottom: 2.4rem;
+  width: 68%;
+  margin: 10px auto 0 auto;
+}
+
+.theory .container .video {
+  display: inline;
+  width: 50%;
+}
+
+.theory .container .video2 {
+  display: inline;
+  margin-left: 181px;
+  width: 50%;
+}
+/*# sourceMappingURL=main.css.map */

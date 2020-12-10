@@ -1,0 +1,79 @@
+.theory {
+  font-family: 'Roboto', sans-serif;
+}
+
+.theory h2 {
+  width: 68%;
+  margin: 10px auto 0 auto;
+  font-family: 'Roboto', sans-serif;
+  color: #22223B;
+  font-size: 30px;
+  line-height: 28px;
+  margin-top: 10px;
+  padding: 20px 0 10px;
+  border-bottom: 1px solid #22223B;
+  margin-bottom: 15px;
+}
+
+.theory .download {
+  color: #22223B;
+  width: 68%;
+  margin: 10px auto 0 auto;
+  border-bottom: 1px solid #22223B;
+  margin-bottom: 15px;
+}
+
+.theory .download ul {
+  list-style: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.theory .download li {
+  font-size: 15px;
+  text-transform: none;
+  letter-spacing: normal;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.theory .download a {
+  text-decoration: none;
+  color: #22223B;
+}
+
+.theory .download a:hover {
+  color: #22223B;
+  border-bottom: 1px dashed #22223B;
+}
+
+.theory .download i {
+  margin-right: 10px;
+}
+
+.theory .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-top: 2.4rem;
+  padding-bottom: 2.4rem;
+  width: 68%;
+  margin: 10px auto 0 auto;
+}
+
+.theory .container .video {
+  display: inline;
+  width: 50%;
+}
+
+.theory .container .video2 {
+  display: inline;
+  margin-left: 181px;
+  width: 50%;
+}
+/*# sourceMappingURL=unit.css.map */
